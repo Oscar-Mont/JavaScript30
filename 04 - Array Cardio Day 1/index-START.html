@@ -38,6 +38,8 @@
       'Billings, Josh', 'Birrell, Augustine', 'Blair, Tony', 'Beecher, Henry', 'Biondo, Frank'
     ];
 
+    //REMEBER: ARRAY METHODS ARE PRACTICALLY ALTERNATIVE AND MORE ELEGANT WAYS TO ITERATE TROUGH ARRAYS
+
     // Array.prototype.filter()
     // 1. Filter the list of inventors for those who were born in the 1500's
 
@@ -91,17 +93,30 @@
     })
     console.log("Sort the inventors by years lived");
     console.table(oldest);
+
     // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
     // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
+    //the following code should be run in the specified website.
 
+    // const category = document.querySelector(".mw-category");
+    // //we must change the resulting Nodelist of queryselectorAll to an array
+    // const links = Array.from(category.querySelectorAll("a"));
+    // //use map to create an array that contains the text of the correspondin "a" link in every index, instead of just "a"
+    // const de = links.map((link) => link.textContent).filter((streetName) => streetName.includes("de"));
 
 
     // 7. sort Exercise
     // Sort the people alphabetically by last name
 
+    // const alphabetOrder = people.sort((a, b) =>{
+
+    // })
+
     // 8. Reduce Exercise
     // Sum up the instances of each of these
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck'];
+
+
 
   </script>
 </body>
